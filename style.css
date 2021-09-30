@@ -6,12 +6,16 @@
 body {
   background-color: #000000;
 }
+main > p {
+  color: white;
+  text-align: center;
+}
 main {
   width: 50vw;
   margin: 5rem auto;
   text-align: center;
   border: 1px solid white;
-  height: 80vh;
+  height: 67vh;
 }
 h1 {
   margin: 1rem 0;
@@ -43,4 +47,18 @@ h1 {
 }
 #output {
   color: #ffec01;
+}
+footer {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-self: center;
+}
+footer div {
+  margin: 1rem;
+}
+footer div a {
+  color: black;
+  align-items: center;
+  text-decoration: none;
 }
